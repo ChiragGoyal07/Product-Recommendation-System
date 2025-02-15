@@ -1,6 +1,6 @@
 # Product-Recommendation-System
 
-# Flipkart Chat Bot 
+# E-commerce Chat Bot 
 
 
 
