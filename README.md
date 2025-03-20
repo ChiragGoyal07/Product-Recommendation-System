@@ -1,13 +1,13 @@
-# Skincare Product Recommendation RAG System
+# Product Recommendation RAG System
 
-This project implements a Retrieval Augmented Generation (RAG) system for skincare product recommendations and general skincare advice. The system intelligently routes queries between product recommendations and general skincare information using a hybrid approach.
+This project implements a Retrieval Augmented Generation (RAG) system for e product recommendations and general advice. The system intelligently routes queries between product recommendations and general information using a hybrid approach.
 
 ## Key Features
 
-- **Hybrid Query Routing**: Automatically distinguishes between product recommendation queries and general skincare questions
-- **Vector Database Integration**: Uses Weaviate for efficient similarity search of skincare products
+- **Hybrid Query Routing**: Automatically distinguishes between product recommendation queries and general questions
+- **Vector Database Integration**: Uses Weaviate for efficient similarity search of  products
 - **Metadata Filtering**: Allows filtering products by price, sale status, and other attributes
-- **Web Search Integration**: Leverages Tavily API for answering general skincare questions
+- **Web Search Integration**: Leverages Tavily API for answering general questions
 - **Conversation History**: Maintains context of the conversation for natural dialogue
 - **User-Friendly UI**: Clean Streamlit interface for easy interaction
 
@@ -28,7 +28,7 @@ The system is composed of several modular components:
 1. **Data Processor**: Handles loading, cleaning, and preparing product data
 2. **Vector Store**: Manages interactions with the Weaviate vector database
 3. **Query Router**: Classifies queries and extracts relevant filters
-4. **Web Search**: Performs web searches for general skincare questions
+4. **Web Search**: Performs web searches for general  questions
 5. **RAG System**: Orchestrates the entire pipeline, from query intake to response generation
 6. **Streamlit UI**: Provides the user interface for interacting with the system
 
@@ -41,7 +41,7 @@ The system is composed of several modular components:
    - Vector search retrieves relevant products
    - LLM generates personalized recommendations
 4. For general queries:
-   - Web search retrieves relevant skincare information
+   - Web search retrieves relevant information
    - LLM generates educational responses
 5. Response is displayed to the user and conversation history is updated
 
@@ -82,10 +82,10 @@ PRODUCT_DATA_PATH=path_to_product_data.xlsx
 
 1. Open the application in your browser
 2. Click "Initialize System" in the sidebar
-3. Click "Process Product Data" to load the skincare products into the vector database
+3. Click "Process Product Data" to load the  products into the vector database
 4. Start asking questions in the chat interface:
    - Product recommendations: "Recommend a moisturizer for oily skin under 1000"
-   - General skincare advice: "How to treat acne scars?"
+   - General  advice: "How to treat acne scars?"
 
 ## Project Structure
 
